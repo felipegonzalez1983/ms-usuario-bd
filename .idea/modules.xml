@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cl.duoc.ms-duoc-c.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cl.duoc.ms-duoc-c.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ms-duoc-c.iml" filepath="$PROJECT_DIR$/.idea/ms-duoc-c.iml" />
+    </modules>
+  </component>
+</project>
