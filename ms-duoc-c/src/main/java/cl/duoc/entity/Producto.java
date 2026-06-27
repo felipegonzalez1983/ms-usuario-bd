@@ -4,17 +4,18 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 @Entity
-@Table(name = "usuario")
+@Table(name = "producto")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Usuario {
+public class Producto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String username;
-    private String password;
-    private String correo;
-    private String telefono;
-    private String direccion;
+    private String nombre;
+    private String descripcion;
+    private Double precio;
+    private Integer stock;
+    private String categoria;
+    private String marca;
 }
